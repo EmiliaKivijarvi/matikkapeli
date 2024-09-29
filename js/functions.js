@@ -32,7 +32,8 @@ document.querySelector('button').addEventListener('click', () => {
     if (answer === correctAnswer) {
         alert('Oikein!')
         oikeat++
-    } else {
+    } 
+    else {
         alert('Väärin!')
         vaarat++
     }
